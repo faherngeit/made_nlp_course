@@ -15,3 +15,4 @@ def plot_train_process(train_loss, val_loss, train_accuracy, val_accuracy, title
     axes[1].plot(val_accuracy, label='validation')
     axes[1].legend()
     plt.show()
+    plt.grid()
